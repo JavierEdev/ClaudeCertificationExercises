@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Write a Python function that takes an S3 bucket name and returns True if the bucket has server-side encryption enabled by default, using boto3. Handle the case where no encryption configuration exists by returning False.",
+    "format": "python",
+    "solution_criteria": "Uses boto3 s3 client get_bucket_encryption; catches ClientError with code 'ServerSideEncryptionConfigurationNotFoundError' and returns False; returns True when Rules are present; function takes bucket name as a parameter and is self-contained with the import included."
+  },
+  {
+    "task": "Create a JSON IAM policy document that allows read-only access (s3:GetObject and s3:ListBucket) to the bucket 'example-reports' and all objects inside it, and denies any s3:DeleteObject action on that bucket.",
+    "format": "json",
+    "solution_criteria": "Valid IAM policy JSON with Version '2012-10-17'; Statement array includes an Allow with s3:GetObject and s3:ListBucket scoped to arn:aws:s3:::example-reports and arn:aws:s3:::example-reports/*; includes a Deny statement for s3:DeleteObject on the bucket objects; no extraneous actions or wildcard resources."
+  },
+  {
+    "task": "Write a regular expression that matches valid AWS EC2 instance IDs (for example i-0abcd1234efgh5678 or i-1234567890abcdef0), which begin with 'i-' followed by either 8 or 17 lowercase hexadecimal characters.",
+    "format": "regex",
+    "solution_criteria": "Pattern anchors the full string (^ and $ or equivalent full-match usage); matches 'i-' followed by exactly 8 or exactly 17 characters from [0-9a-f]; rejects IDs with uppercase letters, wrong lengths, or missing 'i-' prefix."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Runner\n\nHere is a one-day meal plan for a marathon runner preparing for race day:\n\n* **Calorie Target:** Approximately 3200 calories\n* **Macronutrient Breakdown:** Protein (110g), Fat (80g), Carbs (420g)\n\n## Meal Plan:\n\n* **Breakfast (6:00 AM):** Oatmeal (100g dry weight) with honey (30g), banana (120g), and sunflower seeds (20g). Whole milk (250ml).\n    * Protein: 15g, Fat: 12g, Carbs: 95g\n\n* **Pre-Run Snack (8:00 AM):** White bread toast (60g) with jam (25g) and a glass of orange juice (200ml).\n    * Protein: 4g, Fat: 2g, Carbs: 60g\n\n* **Lunch (12:30 PM):** Grilled chicken breast (150g), white rice (180g cooked), steamed carrots (100g), and olive oil drizzle (10ml).\n    * Protein: 42g, Fat: 15g, Carbs: 85g\n\n* **Afternoon Snack (3:00 PM):** Energy bar (65g - nut-free), sports drink (500ml with 6% carbs).\n    * Protein: 8g, Fat: 6g, Carbs: 85g\n\n* **Dinner (6:30 PM):** Lean ground turkey (140g), pasta (150g cooked), marinara sauce (150g), and green beans (120g).\n    * Protein: 35g, Fat: 15g, Carbs: 90g\n\n* **Evening Snack (8:30 PM):** Bagel (90g) with jam (20g) and a banana (100g).\n    * Protein: 9g, Fat: 3g, Carbs: 75g\n\n* **Hydration Strategy:** 2-3 liters of water throughout the day, plus electrolyte drink (500ml) with sports drink during/after training.\n\nThis meal plan emphasizes easily digestible carbohydrates for fuel, adequate protein for muscle recovery, and strategic hydration to support marathon training and preparation.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "75 kg",
+        "goal": "Marathon runner preparing for race day - needs 3000+ calories with high carbohydrate emphasis and strategic hydration",
+        "restrictions": "No nuts or nut butters (allergy)"
+      },
+      "solution_criteria": [
+        "Meal plan totals 3000+ calories with carbohydrates comprising 55-65% of total calories",
+        "Includes 4-5 eating occasions (breakfast, snacks, lunch, pre-workout meal, dinner) with specific hydration strategy throughout the day",
+        "All meals and snacks are compact/concise descriptions suitable for a 1-day plan",
+        "Respects the stated dietary restriction (no nuts or nut butters)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrates and hydration strategies throughout the day"
+    },
+    "score": 7,
+    "reasoning": "The solution successfully meets all three mandatory requirements with explicit daily caloric total, detailed macronutrient breakdown, and 6 well-timed eating occasions with exact portions. All foods respect the nut allergy restriction. However, the carbohydrate percentage at 52.5% falls marginally below the specified 55-65% criterion, representing a minor but measurable deficiency in secondary criteria. The hydration strategy, while present, lacks the precision expected for an athlete's race-day preparation. The meal plan is appropriately compact and concise. The solution is technically compliant but has a meaningful gap in macronutrient targeting."
+  }
+]

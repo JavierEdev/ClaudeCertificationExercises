@@ -1,0 +1,13 @@
+,OR,lo,hi,p
+Intercept,0.6287,0.3826,1.0332,0.0671
+"C(tier, Treatment('Standard'))[T.Basic]",0.9058,0.5946,1.3799,0.645
+"C(tier, Treatment('Standard'))[T.Premium]",0.4843,0.2646,0.8865,0.0187
+"C(genre, Treatment('Drama'))[T.Action]",1.3366,0.7013,2.5475,0.378
+"C(genre, Treatment('Drama'))[T.Comedy]",0.9051,0.4888,1.6762,0.7512
+"C(genre, Treatment('Drama'))[T.Documentary]",0.6663,0.3069,1.4465,0.3046
+"C(genre, Treatment('Drama'))[T.Horror]",1.7727,0.8371,3.754,0.1348
+"C(genre, Treatment('Drama'))[T.Romance]",1.2977,0.6369,2.6439,0.473
+"C(genre, Treatment('Drama'))[T.SciFi]",1.1777,0.5442,2.5485,0.678
+"C(genre, Treatment('Drama'))[T.Thriller]",1.5104,0.6332,3.6026,0.3525
+eng_z,0.818,0.6047,1.1066,0.1926
+cs_z,1.5642,1.1591,2.111,0.0034
