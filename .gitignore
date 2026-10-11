@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local provider credentials and notebook state
+.env.*
+!.env.example
+.backups/
+.DS_Store
